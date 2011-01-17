@@ -8,6 +8,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Example:
     (r'^', include('catalog.urls')),
+    (r'^cart/', include('cart.urls')),
     (r'^admin/', include(admin.site.urls)),
     )
 
