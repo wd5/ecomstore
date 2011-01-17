@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <link rel="Stylesheet" type="text/css" href="{{ MEDIA_URL }}css.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% block title %}{% if page_title %}{{ page_title }} - {% endif %}␣
+        {{ site_name }}{% endblock %}</title>
+    <meta name="keywords" content="{{ meta_keywords }}" />
+    <meta name="description" content="{{ meta_description }}" />
+</head>
+<body>
+    {% block site_wrapper %}{% endblock %}
+</body>
+</html>
