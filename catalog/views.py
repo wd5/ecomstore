@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render_to_response
 from catalog.models import Category, Product
 from django.template import RequestContext
 from django.core import urlresolvers
-from cart import cart
+#from cart import cart
 from django.http import HttpResponseRedirect
 from catalog.forms import ProductAddToCartForm
 
