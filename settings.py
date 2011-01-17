@@ -96,6 +96,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'ecomstore.catalog',
     'ecomstore.utils',
+    'ecomstore.cart',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
